@@ -82,7 +82,7 @@
             </label>
             <input type="reset" value="重置" class="btn1"
                    style="border: none; background-color: white; color: #808080; font-size: 14px"/><br>
-            <a href="register.html" style="color:rgb(255,129,54); ">立即注册！</a>
+            <a href="register.jsp" style="color:rgb(255,129,54); ">立即注册！</a>
         </fieldset>
     </form>
 </div>

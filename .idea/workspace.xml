@@ -2,216 +2,50 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="blog:war" />
+      <artifact name="weibo-blog:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1cf4f1d-cfd1-49ce-aa0d-7622cba64f59" name="Default Changelist" comment="微博注册、登录、首页">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/10d4a4a7-5539-4dec-a2e3-dea94a53c8ba.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/10d4a4a7-5539-4dec-a2e3-dea94a53c8ba/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/AIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/DeleteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/Impl/ArticleDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/Impl/TopicDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/Impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/factory/DaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/filter/CharFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/filter/FilterStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/DataBaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/DbUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/EmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/ResultEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/SplitPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/META-INF/training.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/controller/RegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/dao/Impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/factory/DaoFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/filter/CharFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/filter/FilterStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/test/UserDaoImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/DataBaseConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/SplitPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsmartcom_zh_CN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/article.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/first.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dianzan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/exit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/r1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/r2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lunbo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/photo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/verifyCode.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/web/blog/dao/Impl/ArticleDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/web/blog/dao/Impl/TopicDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/web/blog/dao/Impl/UserDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/META-INF/blog.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/AIController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/DeleteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/RegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/ArticleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/Impl/ArticleDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/Impl/TopicDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/Impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/TopicDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/Article.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/Topic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/factory/DaoFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/filter/CharFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/filter/FilterStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/DataBaseConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/DbUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/EmailUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/Mail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/ResultEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/SplitPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/db-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-codec-1.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jsmartcom_zh_CN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jsoup-1.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/logback-classic-1.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/logback-core-1.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/slf4j-api-1.7.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/testng-7.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/article.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/css/first.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/dianzan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/exit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/homePage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/h1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/h2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/h3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/h4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/h5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/r1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/image/r2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/insert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/lunbo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/photo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/blog/verifyCode.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/blog.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/AIController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/DeleteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/RegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/ArticleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/Impl/ArticleDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/Impl/TopicDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/Impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/TopicDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/Article.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/Topic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/factory/DaoFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/filter/CharFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/filter/FilterStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/DataBaseConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/DbUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/EmailUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/Mail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/ResultEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/SplitPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/blog.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/web/blog/dao/Impl/ArticleDaoImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/web/blog/dao/Impl/TopicDaoImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/web/blog/dao/Impl/UserDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/personal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/dao/Impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/factory/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/filter/CharFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/filter/FilterStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/test/UserDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/util/DataBaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/util/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/util/SplitPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/practical/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/css/personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/personal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/first.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/first.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog/css/first.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/css/first.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/blog.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/META-INF/training.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/blog.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +76,10 @@
     </expand>
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -250,8 +88,9 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -276,7 +115,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\maven_jar" />
-        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.2" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -305,7 +144,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -318,9 +158,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.soft1841.web.blog.util" />
+      <recent name="com.soft1841.web.blog.service.Impl" />
+      <recent name="com.soft1841.web.bolg.controller" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.soft1841.web.blog.dao.Impl" />
     </key>
@@ -337,16 +182,12 @@
       <recent name="com.soft1841.web.blog.dao.Impl" />
       <recent name="com.soft1841.web.blog.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaStudy\blog\src\main\webapp" />
-      <recent name="D:\JavaStudy\blog\src\main\webapp\WEB-INF\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\weibo-blog\src\main\webapp" />
+      <recent name="D:\weibo-blog\src\main\java\com\soft1841\web\blog\controller" />
       <recent name="D:\JavaStudy\blog\src\main\java\com\soft1841\web\blog\controller" />
       <recent name="D:\JavaStudy\blog\src\main\webapp\WEB-INF\lib" />
       <recent name="D:\JavaStudy\blog\src\main\java\com\soft1841\web\blog\dao\Impl" />
-      <recent name="D:\JavaStudy\blog\src\main\webapp" />
-      <recent name="D:\JavaStudy\blog\src\main\webapp\image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1841.web.blog.util" />
@@ -355,10 +196,9 @@
       <recent name="com.soft1841.web.blog.entity" />
       <recent name="com.soft1841.web.blog.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.soft1841.web.blog.util" />
-      <recent name="com.soft1841.web.blog.service.Impl" />
-      <recent name="com.soft1841.web.bolg.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\blog\src\main\webapp" />
+      <recent name="D:\JavaStudy\blog\src\main\webapp\WEB-INF\css" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.0.M111">
@@ -443,17 +283,19 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.0.M111" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M111" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8282/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="blog:war">
+        <artifact name="weibo-blog:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/blog" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog" />
+        <option name="HTTP_PORT" value="8282" />
         <option name="JNDI_PORT" value="1999" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -513,89 +355,17 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="blog:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M111" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <deployment>
-        <artifact name="blog:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59901" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="blog:war exploded" />
+          <artifact name="weibo-blog:war" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.0.M111" />
-      <item itemvalue="Tomcat Server.blog" />
       <item itemvalue="JUnit.ArticleDaoImplTest.getArticleById" />
       <item itemvalue="JUnit.ArticleDaoImplTest.selectHotArticles" />
       <item itemvalue="JUnit.ArticleDaoImplTest.selectByKeywords" />
       <item itemvalue="JUnit.ArticleDaoImplTest.findAll" />
       <item itemvalue="JUnit.ArticleDaoImplTest.delete" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.0.M111" />
     </list>
     <recent_temporary>
       <list>
@@ -617,11 +387,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -681,6 +446,10 @@
       <workItem from="1576418727055" duration="287000" />
       <workItem from="1576419040105" duration="1217000" />
       <workItem from="1576470942345" duration="13130000" />
+      <workItem from="1576569371525" duration="653000" />
+      <workItem from="1576570173909" duration="1934000" />
+      <workItem from="1576572137732" duration="2122000" />
+      <workItem from="1576574319199" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="微博注册、登录、首页">
       <created>1576543627877</created>
@@ -724,18 +493,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="微博注册、登录、首页" />
     <option name="LAST_COMMIT_MESSAGE" value="微博注册、登录、首页" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="344" y="68" key="#ArticleDaoImplTest.findAll" timestamp="1576571350268">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="344" y="68" key="#ArticleDaoImplTest.findAll/0.0.1536.864@0.0.1536.864" timestamp="1576571350268" />
     <state x="722" y="93" key="#Inspections" timestamp="1575938164663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="722" y="93" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1575938164663" />
-    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576481245993">
+    <state x="361" y="90" key="#Notifications" timestamp="1576571188065">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1576481245993" />
+    <state x="361" y="90" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1576571188065" />
+    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576571695807">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1576571695807" />
     <state x="190" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1576471632472">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -780,66 +560,86 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="197" y="68" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1576543426749" />
-    <state x="228" y="218" key="FileChooserDialogImpl" timestamp="1576549215953">
+    <state x="228" y="218" key="FileChooserDialogImpl" timestamp="1576569855261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="228" y="218" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1576549215953" />
-    <state width="1226" height="239" key="GridCell.Tab.0.bottom" timestamp="1576549025826">
+    <state x="228" y="218" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1576569855261" />
+    <state width="1226" height="216" key="GridCell.Tab.0.bottom" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.0.center" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.0.center" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.0.left" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.0.left" timestamp="1576574270662">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.0.right" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576574270662" />
+    <state width="1226" height="216" key="GridCell.Tab.0.right" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.1.bottom" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.1.bottom" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.1.center" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.1.center" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.1.left" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.1.left" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.1.right" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.1.right" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.2.bottom" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.2.bottom" timestamp="1576574270664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.2.center" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576574270664" />
+    <state width="1226" height="216" key="GridCell.Tab.2.center" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.2.left" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.2.left" timestamp="1576574270663">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
-    <state width="1226" height="239" key="GridCell.Tab.2.right" timestamp="1576549025826">
+    <state width="1226" height="216" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1576574270663" />
+    <state width="1226" height="216" key="GridCell.Tab.2.right" timestamp="1576574270664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1226" height="239" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="216" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1576574270664" />
+    <state width="1226" height="406" key="GridCell.Tab.3.bottom" timestamp="1576572120666">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="406" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576572120666" />
+    <state width="1226" height="406" key="GridCell.Tab.3.center" timestamp="1576572120666">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="406" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1576572120666" />
+    <state width="1226" height="406" key="GridCell.Tab.3.left" timestamp="1576572120666">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="406" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1576572120666" />
+    <state width="1226" height="406" key="GridCell.Tab.3.right" timestamp="1576572120666">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="406" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1576572120666" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1576541505483">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1576541505483" />
-    <state x="249" y="6" key="SettingsEditor" timestamp="1576541198357">
+    <state x="147" y="61" width="996" height="707" key="SettingsEditor" timestamp="1576571514722">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1576541198357" />
+    <state x="147" y="61" width="996" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1576571514722" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1576574550405">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1576574550405" />
     <state x="607" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1576549167563">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

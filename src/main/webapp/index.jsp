@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="/blog/css/first.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/first.css" type="text/css">
+<%--    <link href="/weibo-blog/css/first.css" rel="stylesheet" />--%>
     <title>微博-随时随地发现新鲜事</title>
 </head>
 <body>

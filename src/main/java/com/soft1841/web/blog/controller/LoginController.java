@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 /**
  * @ClassName ${NAME}
@@ -40,6 +41,7 @@ public class LoginController extends HttpServlet {
         user.setMobile(mobile);
         user.setPassword(password);
         user.setFlag(flag);
+
         //获取session对象
         HttpSession session = request.getSession();
         //重定向地址保存在path中
@@ -49,9 +51,11 @@ public class LoginController extends HttpServlet {
         try {
             //判断用户名
             if (DaoFactory.getUserDaoInstance().login(user)&&rand.equals(input)){
+                User user1=DaoFactory.getUserDaoInstance().findUserByMobile(user.getMobile());
                 System.out.println("judge login 123");
-                session.setAttribute("nickname",user.getNickname());
-                session.setAttribute("avatar",user.getAvatar());
+                session.setAttribute("nickname",user1.getNickname());
+                session.setAttribute("avatar",user1.getAvatar());
+                session.setAttribute("mobile",user.getMobile());
                 session.setAttribute("id",user.getId());
                     path = "homePage.jsp";
                    request.getRequestDispatcher(path).forward(request,response);

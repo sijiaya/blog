@@ -26,7 +26,7 @@ body{
 .search_input{
 	float: left;
 	display: inline;
-	height: 26px;
+	height: 32px;
 	width: 330px;
 	margin: 12px 0 0 240px;
 	background-color: #f2f2f5;
@@ -113,10 +113,12 @@ a:hover {
 	line-height: 20px;
 }
 
-.pubish_btn{
+.publish_btn{
 	position: absolute;
-	margin-top: -62px;
-	margin-left: 500px;
+	/*margin-top: -62px;*/
+	/*margin-left: 500px;*/
+	top:110px;
+	left: 520px;
 	width: 70px;
 	height: 30px;
 	color: #FFFFFF;
@@ -154,7 +156,7 @@ a:hover {
 	position: absolute;
 	top: 75px;
 	right: 195px;
-	width:220px;
+	width:260px;
 	height: 150px;
 	background: white;
 }
@@ -163,7 +165,7 @@ a:hover {
 	top: 240px;
 	background: white;
 	right: 195px;
-	width:220px;
+	width:260px;
 	height: 230px;
 }
 .card6{
@@ -171,7 +173,7 @@ a:hover {
 	top: 490px;
 	background: white;
 	right: 195px;
-	width:220px;
+	width:260px;
 	height: 360px;
 }
 
