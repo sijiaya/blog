@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="blog:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1cf4f1d-cfd1-49ce-aa0d-7622cba64f59" name="Default Changelist" comment="微博注册、登录、首页">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/10d4a4a7-5539-4dec-a2e3-dea94a53c8ba.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/10d4a4a7-5539-4dec-a2e3-dea94a53c8ba/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/AIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/DeleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/Impl/ArticleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/Impl/TopicDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/Impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/TopicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/factory/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/filter/CharFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/filter/FilterStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/DataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/DbUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/EmailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/ResultEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/SplitPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft1841/web/blog/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/META-INF/training.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/dao/Impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/factory/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/filter/CharFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/filter/FilterStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/test/UserDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/DataBaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/SplitPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/practical/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsmartcom_zh_CN.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/article.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/first.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dianzan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/r1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/r2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lunbo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/verifyCode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/web/blog/dao/Impl/ArticleDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/web/blog/dao/Impl/TopicDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft1841/web/blog/dao/Impl/UserDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/META-INF/blog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/AIController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/DeleteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/Impl/ArticleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/Impl/TopicDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/Impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/TopicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/factory/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/filter/CharFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/filter/FilterStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/DataBaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/DbUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/EmailUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/Mail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/ResultEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/SplitPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/soft1841/web/blog/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/db-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-codec-1.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jsmartcom_zh_CN.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jsoup-1.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/logback-classic-1.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/logback-core-1.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/slf4j-api-1.7.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/testng-7.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/article.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/css/first.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/dianzan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/exit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/homePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/r1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/image/r2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/lunbo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog/verifyCode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/blog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/AIController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/DeleteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/Impl/ArticleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/Impl/TopicDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/Impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/TopicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/factory/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/filter/CharFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/filter/FilterStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/DataBaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/DbUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/EmailUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/Mail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/ResultEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/SplitPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/soft1841/web/blog/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/blog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/web/blog/dao/Impl/ArticleDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/web/blog/dao/Impl/TopicDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/soft1841/web/blog/dao/Impl/UserDaoImplTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\JavaStudy\blog\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_jar" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U6LMqMROr2BIrcDT7ChERmdCUX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.soft1841.web.blog.dao.Impl" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soft1841.web.blog.dao.Impl" />
+      <recent name="test.com.soft1841.web.blog.dao.Impl" />
+      <recent name="test" />
+      <recent name="com.soft1841.web.blog.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.soft1841.web.blog.dao.Impl" />
+      <recent name="com.soft1841.web.blog.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\blog\src\main\webapp" />
+      <recent name="D:\JavaStudy\blog\src\main\webapp\WEB-INF\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\blog\src\main\java\com\soft1841\web\blog\controller" />
+      <recent name="D:\JavaStudy\blog\src\main\webapp\WEB-INF\lib" />
+      <recent name="D:\JavaStudy\blog\src\main\java\com\soft1841\web\blog\dao\Impl" />
+      <recent name="D:\JavaStudy\blog\src\main\webapp" />
+      <recent name="D:\JavaStudy\blog\src\main\webapp\image" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soft1841.web.blog.util" />
+      <recent name="com.soft1841.web.blog.filter" />
+      <recent name="com.soft1841.web.blog.factory" />
+      <recent name="com.soft1841.web.blog.entity" />
+      <recent name="com.soft1841.web.blog.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.soft1841.web.blog.util" />
+      <recent name="com.soft1841.web.blog.service.Impl" />
+      <recent name="com.soft1841.web.bolg.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.0.M111">
+    <configuration name="ArticleDaoImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.web.blog.dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1841.web.blog.dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.web.blog.dao.Impl.ArticleDaoImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.web.blog.dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1841.web.blog.dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.web.blog.dao.Impl.ArticleDaoImplTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoImplTest.getArticleById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.web.blog.dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1841.web.blog.dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.web.blog.dao.Impl.ArticleDaoImplTest" />
+      <option name="METHOD_NAME" value="getArticleById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoImplTest.selectByKeywords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.web.blog.dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1841.web.blog.dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.web.blog.dao.Impl.ArticleDaoImplTest" />
+      <option name="METHOD_NAME" value="selectByKeywords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoImplTest.selectHotArticles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.web.blog.dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1841.web.blog.dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.web.blog.dao.Impl.ArticleDaoImplTest" />
+      <option name="METHOD_NAME" value="selectHotArticles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.0.M111" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M111" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="blog:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/blog" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog" />
+        <option name="JNDI_PORT" value="1999" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59834" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blog:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M111" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <deployment>
+        <artifact name="blog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59901" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blog:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.0.M111" />
+      <item itemvalue="Tomcat Server.blog" />
+      <item itemvalue="JUnit.ArticleDaoImplTest.getArticleById" />
+      <item itemvalue="JUnit.ArticleDaoImplTest.selectHotArticles" />
+      <item itemvalue="JUnit.ArticleDaoImplTest.selectByKeywords" />
+      <item itemvalue="JUnit.ArticleDaoImplTest.findAll" />
+      <item itemvalue="JUnit.ArticleDaoImplTest.delete" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArticleDaoImplTest.findAll" />
+        <item itemvalue="JUnit.ArticleDaoImplTest.delete" />
+        <item itemvalue="JUnit.ArticleDaoImplTest.selectByKeywords" />
+        <item itemvalue="JUnit.ArticleDaoImplTest.selectHotArticles" />
+        <item itemvalue="JUnit.ArticleDaoImplTest.getArticleById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.16188525" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1cf4f1d-cfd1-49ce-aa0d-7622cba64f59" name="Default Changelist" comment="" />
+      <created>1574672052745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574672052745</updated>
+      <workItem from="1574672056764" duration="8154000" />
+      <workItem from="1574927412023" duration="7430000" />
+      <workItem from="1574985573398" duration="148000" />
+      <workItem from="1575215413313" duration="3218000" />
+      <workItem from="1575331377125" duration="773000" />
+      <workItem from="1575332473722" duration="2213000" />
+      <workItem from="1575334811353" duration="1163000" />
+      <workItem from="1575336493434" duration="108000" />
+      <workItem from="1575336625810" duration="3814000" />
+      <workItem from="1575351113331" duration="4665000" />
+      <workItem from="1575385431825" duration="1608000" />
+      <workItem from="1575417843685" duration="2612000" />
+      <workItem from="1575437280414" duration="59000" />
+      <workItem from="1575437375942" duration="38000" />
+      <workItem from="1575437645931" duration="56000" />
+      <workItem from="1575513266653" duration="2053000" />
+      <workItem from="1575523084225" duration="13604000" />
+      <workItem from="1575550546252" duration="17000" />
+      <workItem from="1575550739262" duration="355000" />
+      <workItem from="1575590540916" duration="6084000" />
+      <workItem from="1575598181406" duration="2463000" />
+      <workItem from="1575603126570" duration="8229000" />
+      <workItem from="1575897697293" duration="8265000" />
+      <workItem from="1575936513190" duration="65000" />
+      <workItem from="1575936584300" duration="1584000" />
+      <workItem from="1575938186443" duration="19584000" />
+      <workItem from="1575977638729" duration="3366000" />
+      <workItem from="1576022506489" duration="8630000" />
+      <workItem from="1576032356128" duration="239000" />
+      <workItem from="1576032887624" duration="82000" />
+      <workItem from="1576118744674" duration="5681000" />
+      <workItem from="1576196686429" duration="10266000" />
+      <workItem from="1576229719433" duration="823000" />
+      <workItem from="1576392709319" duration="7415000" />
+      <workItem from="1576404419021" duration="240000" />
+      <workItem from="1576406060307" duration="115000" />
+      <workItem from="1576406569700" duration="8608000" />
+      <workItem from="1576416017341" duration="2686000" />
+      <workItem from="1576418727055" duration="287000" />
+      <workItem from="1576419040105" duration="1217000" />
+      <workItem from="1576470942345" duration="13130000" />
+    </task>
+    <task id="LOCAL-00001" summary="微博注册、登录、首页">
+      <created>1576543627877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576543627877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="微博注册、登录、首页">
+      <created>1576545598831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576545598831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="微博注册、登录、首页">
+      <created>1576549051944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576549051944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="微博注册、登录、首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="微博注册、登录、首页" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="93" key="#Inspections" timestamp="1575938164663">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="93" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1575938164663" />
+    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576481245993">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1576481245993" />
+    <state x="190" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1576471632472">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="190" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1576471632472" />
+    <state x="499" y="207" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575525859516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="207" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1575525859516" />
+    <state x="499" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575523905764">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1575523905764" />
+    <state x="449" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576392727782">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1576392727782" />
+    <state x="407" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575526567165">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="407" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1575526567165" />
+    <state x="928" y="293" width="451" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575958472108">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="928" y="293" width="451" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1575958472108" />
+    <state x="75" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575527676629">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="75" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1575527676629" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576471598849">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1576471598849" />
+    <state x="499" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1575945327511">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1575945327511" />
+    <state x="43" y="29" width="791" height="806" key="CommitChangelistDialog2" timestamp="1576549290110">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="43" y="29" width="791" height="806" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1576549290110" />
+    <state x="197" y="68" key="DiffContextDialog" timestamp="1576543426749">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="197" y="68" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1576543426749" />
+    <state x="228" y="218" key="FileChooserDialogImpl" timestamp="1576549215953">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="228" y="218" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1576549215953" />
+    <state width="1226" height="239" key="GridCell.Tab.0.bottom" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.0.center" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.0.left" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.0.right" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.1.bottom" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.1.center" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.1.left" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.1.right" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.2.bottom" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.2.center" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.2.left" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state width="1226" height="239" key="GridCell.Tab.2.right" timestamp="1576549025826">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1226" height="239" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1576549025826" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1576541505483">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1576541505483" />
+    <state x="249" y="6" key="SettingsEditor" timestamp="1576541198357">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1576541198357" />
+    <state x="607" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1576549167563">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="607" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.864@0.0.1536.864" timestamp="1576549167563" />
+    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576026720688">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1576026720688" />
+    <state x="519" y="134" width="520" height="595" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576481575586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="519" y="134" width="520" height="595" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1576481575586" />
+    <state x="226" y="51" key="new project wizard" timestamp="1575418541626">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="226" y="51" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1575418541626" />
+    <state x="88" y="62" key="refactoring.ChangeSignatureDialog" timestamp="1576022762838">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="88" y="62" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1576022762838" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1575551094090">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1575551094090" />
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1576397899595">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1576397899595" />
+  </component>
+</project>
