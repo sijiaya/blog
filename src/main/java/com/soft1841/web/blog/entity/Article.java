@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 /**
  * @ClassName article
@@ -26,6 +25,7 @@ public class Article {
     private String content;
     private Integer comments;
     private LocalDateTime creatTime;
+    private String author;
 
     public void setArticle(Article article) {
     }

@@ -161,6 +161,10 @@ public class ArticleDaoImpl implements ArticleDao {
 
     @Override
     public int insert(Article article) throws Exception {
+        System.out.println(article.getUserId());
+        System.out.println(article.getTitle());
+        System.out.println(article.getContent());
+        System.out.println(article.getTitle());
         int n =0;
         String sql = "INSERT INTO db_space.t_article (userId,title,thumbnail,content) VALUES (?,?,?,?)";
         Connection con = DbUtil.getConnection();

@@ -189,12 +189,12 @@ public class UserDaoImpl extends JDBCUtil implements UserDao {
             user.setNickname(rs.getString("nickname"));
             user.setAvatar(rs.getString("avatar"));
             user.setGender(rs.getString("gender"));
-            user.setBirthday(rs.getDate("birthday").toLocalDate());
+//            user.setBirthday(rs.getDate("birthday").toLocalDate());
             user.setIntroduction(rs.getString("introduction"));
             user.setEmail(rs.getString("email"));
             user.setFans(rs.getInt("fans"));
             user.setArticles(rs.getInt("articles"));
-            user.setCreateTime(rs.getTimestamp("create_time").toLocalDateTime());
+//            user.setCreateTime(rs.getTimestamp("create_time").toLocalDateTime());
             user.setStatus(rs.getShort("status"));
             user.setFlag(rs.getString("flag"));
             userList.add(user);

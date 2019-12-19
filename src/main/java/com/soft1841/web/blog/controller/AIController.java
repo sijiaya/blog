@@ -3,8 +3,6 @@ package com.soft1841.web.blog.controller;
 import com.soft1841.web.blog.dao.ArticleDao;
 import com.soft1841.web.blog.entity.Article;
 import com.soft1841.web.blog.factory.DaoFactory;
-
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,29 +18,30 @@ public class AIController extends HttpServlet {
         request.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=utf-8");
         PrintWriter out=response.getWriter();
-        HttpSession session=request.getSession();
-        String thumbnail= (String) session.getAttribute("image");
-        System.out.println("图片是"+thumbnail);
-        String s_userId=request.getParameter("userId");
-        Long userId=Long.parseLong(s_userId);
-        System.out.println("作者是"+s_userId);
-        String s_topicId=request.getParameter("topicId");
-        Long topicId=Long.parseLong(s_topicId);
-        System.out.println("主题是"+topicId);
+       HttpSession session=request.getSession();
+//        String thumbnail= (String) session.getAttribute("image");
+//        System.out.println("图片是"+thumbnail);
+
+        //String s_userId=request.getParameter("id");
+        String s_userId= (String) session.getAttribute("id");
+//        System.out.println("作者是"+s_userId);
+//        String s_topicId=request.getParameter("topicId");
+//        Long topicId=Long.parseLong(s_topicId);
+//        System.out.println("主题是"+topicId);
         String title=request.getParameter("title");
         System.out.println( "标题是"+title);
         String content=request.getParameter("content");
         System.out.println("内容是"+content);
         Article article=new Article();
-        article.setUserId(userId);
-        article.setTopicId(topicId);
+        article.setUserId((long) 1);
+        //article.setTopicId(topicId);
         article.setTitle(title);
         article.setContent(content);
-        article.setThumbnail(thumbnail);
+        //article.setThumbnail(thumbnail);
         ArticleDao articleDAO= DaoFactory.getArticleDaoInstance();
         try {
             if (articleDAO.insert(article)==1){
-                request.getRequestDispatcher("article.jsp").forward(request, response);
+                request.getRequestDispatcher("homePage.jsp").forward(request, response);
             }else {
                 request.getRequestDispatcher("err.jsp").forward(request,response);
             }

@@ -38,12 +38,14 @@
             height: 45px;
             margin: 10px 10px;
             background-color: white;
-        }
+            border: none;
+          }
         .btn1{
             width: 90px;
             height: 25px;
             margin: 10px 10px;
             background-color: white;
+            border: none;
         }
         .text{
             color: #808080;
@@ -51,7 +53,6 @@
             width: 15px;
             vertical-align: middle;
         }
-
     </style>
 </head>
 <body>
@@ -65,11 +66,11 @@
             <input type="text" name="mobile" placeholder="请输入手机号" ><br>
             <input type="password" name="password"  placeholder="请输入密码"><br>
 
-            <input type="text" name="verify" placeholder="输入验证码" autocomplete="off">
+            <input type="text" name="verify" placeholder="输入验证码" autocomplete="off"><br>
             &nbsp;&nbsp;
             <img src="verifyCode.jsp" width="60px" height="28px" style="vertical-align: middle;"><br>
 
-            <input type="hidden" name="flag" value="1">
+
             <input type="submit" value="登录" class="btn" style="background-color: rgb(255,129,54);
             color: white;font-weight: bold"/><br>
             <input type="button"  value="使用QQ直接登录" class="btn"

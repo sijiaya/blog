@@ -61,7 +61,7 @@ public class UserDaoImplTest {
         user.setMobile("17826352842");
         user.setNickname("嗯嗯嗯");
         user.setPassword("111");
-        user.setIntroduction("first");
+        user.setIntroduction("ssecee");
         userDao.update(user);
     }
 }

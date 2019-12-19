@@ -2,7 +2,6 @@ package com.soft1841.web.blog.dao.Impl;
 
 import com.soft1841.web.blog.dao.ArticleDao;
 import com.soft1841.web.blog.entity.Article;
-import com.soft1841.web.blog.entity.User;
 import com.soft1841.web.blog.factory.DaoFactory;
 import org.junit.Test;
 
@@ -60,6 +59,16 @@ public class ArticleDaoImplTest {
     }
 
     @Test
-    public void insert() {
+    public void insert() throws Exception {
+        int n=0;
+        Article article=new Article();
+        article.setUserId((long) 1);
+        article.setTitle("yao");
+        article.setThumbnail("yao");
+        article.setContent("yao");
+
+           n=articleDao.insert(article);
+
+        System.out.println(n);
     }
 }

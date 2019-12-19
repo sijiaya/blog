@@ -1,6 +1,7 @@
 package com.soft1841.web.blog.controller;
 
 import com.soft1841.web.blog.dao.ArticleDao;
+import com.soft1841.web.blog.dao.CommentDao;
 import com.soft1841.web.blog.factory.DaoFactory;
 
 import javax.servlet.ServletException;
@@ -20,10 +21,10 @@ public class DeleteController extends HttpServlet {
         String s_Id = (String) request.getParameter("id");
         Long id=Long.parseLong(s_Id);
         request.setCharacterEncoding("utf-8");
-        ArticleDao articleDAO= DaoFactory.getArticleDaoInstance();
+        CommentDao commentDao=DaoFactory.getCommentDaoInstance();
 
             try {
-                if (articleDAO.delete(id)==1){
+                if (commentDao.delete(id)==1){
                     request.getRequestDispatcher("success.jsp").forward(request, response);
                 }else {
                     request.getRequestDispatcher("err.jsp").forward(request,response);

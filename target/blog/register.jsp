@@ -61,10 +61,10 @@
     <form action="register.do" method="post" onsubmit="return check_admin(this);" class="form">
         <fieldset id="box">
             <h2>账户注册</h2>
-            <input type="text" name="mobile" placeholder="请输入手机号" ><br>
+            <input type="text" name="mobile" placeholder="请输入手机号" autocomplete="off"><br>
             <input type="password" name="password"  placeholder="请输入密码"><br>
             <input type="email" name="email" placeholder="请输入电子邮箱"><br>
-            <input type="text" name="verify" placeholder="输入验证码">
+            <input type="text" name="verify" placeholder="输入验证码" autocomplete="off"><br>
             &nbsp;&nbsp;
             <img src="verifyCode.jsp" width="60px" height="28px" style="vertical-align: middle;"><br>
 
@@ -72,9 +72,11 @@
             <input type="submit" value="立即登录" class="btn" style="background-color: rgb(255,129,54);color: white;font-weight: bold" /><br>
             <br>
 
+           <input type="hidden" name="flag" value="1">
+
             <input type="reset" value="重置" class="btn1"
                    style="border: none; background-color: white; color: #808080; font-size: 11px"/>
-            <a href="login.html" style="color:rgb(255,129,54); ">已有账号，直接登录！</a>
+            <a href="login.jsp" style="color:rgb(255,129,54); ">已有账号，直接登录！</a>
         </fieldset>
     </form>
 </div>

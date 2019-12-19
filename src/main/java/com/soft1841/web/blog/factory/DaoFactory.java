@@ -1,12 +1,7 @@
 package com.soft1841.web.blog.factory;
 
-import com.soft1841.web.blog.dao.Impl.ArticleDaoImpl;
-import com.soft1841.web.blog.dao.Impl.UserDaoImpl;
-import com.soft1841.web.blog.dao.ArticleDao;
-import com.soft1841.web.blog.dao.Impl.TopicDaoImpl;
-import com.soft1841.web.blog.dao.TopicDao;
-import com.soft1841.web.blog.dao.UserDao;
-
+import com.soft1841.web.blog.dao.*;
+import com.soft1841.web.blog.dao.Impl.*;
 
 /**
  * @ClassName DaoFactory
@@ -24,4 +19,10 @@ public class DaoFactory {
     public static TopicDao getTopicDaoInstance(){
         return new TopicDaoImpl();
     }
+    public static CommentDao getCommentDaoInstance(){ return new CommentDaoImpl();
     }
+    public static NoteDao getNoteDAOInstance(){
+        return new NoteDaoImpl();
+    }
+
+}

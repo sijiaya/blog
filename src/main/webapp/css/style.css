@@ -48,6 +48,7 @@ body{
 #navigation{
 	position: absolute;
 	z-index: 3;
+	top: -5px;
 	left: 680px;
 }
 nav ul li{
@@ -83,14 +84,27 @@ a:hover {
 	top: 75px;
 	left: 410px;
 	background-color: white;
-	height: 150px;
+	height: 190px;
 	width: 610px;
 	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15) inset;
 }
-.article{
+.article1{
 	margin-left: 10px;
+	width: 583px;
+	height: 25px;
+	background-color: #fff;
+	color: #333333;
+	font-size: 15px;
+	word-wrap: break-word;
+	line-height: 20px;
+	overflow: hidden;
+	outline: none;
+}
+.article2{
+	position: relative;
+	margin: 10px 0 0 10px;
 	width: 580px;
-	height: 65px;
+	height: 60px;
 	background-color: #fff;
 	color: #333333;
 	font-size: 15px;
@@ -100,7 +114,10 @@ a:hover {
 	outline: none;
 }
 .file_btn{
-	position: relative;
+	position: absolute;
+	top: 140px;
+	left: 1px;
+	/* margin-top: -30px; */
 	display: inline-block;
 	background: #fcfcfc;
 	border: 1px solid #99d3f5;
@@ -113,12 +130,10 @@ a:hover {
 	line-height: 20px;
 }
 
-.publish_btn{
+.pubish_btn{
 	position: absolute;
-	/*margin-top: -62px;*/
-	/*margin-left: 500px;*/
-	top:110px;
-	left: 520px;
+	margin-top: -18px;
+	margin-left: 520px;
 	width: 70px;
 	height: 30px;
 	color: #FFFFFF;
@@ -129,29 +144,26 @@ a:hover {
 .card1{
 	position:absolute;
 	margin:250px 0 0 410px;
-	background: white;
 	width: 610px;
 	height: 200px;
 	text-align: center;
 }
-.card2{
-	position:absolute;
-	top: 470px;
-	left: 410px;
-	background: white;
-	width: 610px;
-	height: 200px;
-	text-align: center;
-}
-.card3{
-	position:absolute;
-	top: 700px;
-	left: 410px;
-	background: white;
-	width: 610px;
-	height: 200px;
-	text-align: center;
-}
+/*.card2{*/
+/*	position:absolute;*/
+/*	top: 470px;*/
+/*	left: 410px;*/
+/*	width: 610px;*/
+/*	height: 200px;*/
+/*	text-align: center;*/
+/*}*/
+/*.card3{*/
+/*	position:absolute;*/
+/*	top: 700px;*/
+/*	left: 410px;*/
+/*	width: 610px;*/
+/*	height: 200px;*/
+/*	text-align: center;*/
+/*}*/
 .card4{
 	position: absolute;
 	top: 75px;
@@ -160,6 +172,7 @@ a:hover {
 	height: 150px;
 	background: white;
 }
+
 .card5{
 	position: absolute;
 	top: 240px;

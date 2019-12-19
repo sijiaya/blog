@@ -68,3 +68,18 @@ a:hover {
     color:rgb(250,125,60);
     text-decoration:none;
 }
+.card1{
+    position: relative;
+    width: 700px;
+    height: 180px;
+    top: 150px;
+    left: 400px;
+}
+.card2{
+    position: relative;
+    width: 720px;
+    height: 80px;
+    top: 210px;
+    left: 400px;
+    background: white;
+}
